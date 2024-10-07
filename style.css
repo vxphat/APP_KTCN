@@ -1,8 +1,20 @@
+/* ----global----- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: none;
 }
+
+tr{
+    text-align: center ;
+    width: 100%;
+ }
+
+p{
+    font-weight: normal;
+}
+
+ /* ------------- */
 
 
 .fl-table, .table-footer {
@@ -19,18 +31,17 @@
     border-collapse: collapse;
 }
 
-tr{
-   text-align: center ;
-   width: 100%;
-}
+
 
 .container{
     max-width: 100%;
-    margin: 50px 50px;
+    margin: 20px 40px 0;
 }
 
 .title{
     text-align: center;
+    margin: 20px 0;
+
 }
 
 .center{
@@ -41,14 +52,10 @@ tr{
     margin-top: 10px;
 }
 
-.yes{
+.yes, .no{
     display: flex;
     justify-content: flex-start;
-}
-
-.no {
-    display: flex;
-    justify-content: flex-start;
+    width: 50%;
 }
 
 .fooder{
@@ -64,10 +71,6 @@ tr{
 
 .item1_1{
     margin-left: 30px;
-}
-
-.item2{
-    justify-content: end;
 }
 
 .row1{
